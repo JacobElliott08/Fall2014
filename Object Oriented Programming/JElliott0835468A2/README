@@ -1,0 +1,31 @@
+Jacob Elliott 0835468
+
+To compile my code you must be in the folder before assignment, from there you can compile on the command line using javac assignment/DayPlannerDemo.java this will compile the code.
+
+To run my code, you must be in the same folder you compiled in ’src’ and then you must type java assignment/DayPlannerDemo and then a file name for the input and output, the file name path must be relative to your current directory. Since you are in the src file you may type something along the lines java assignment/DayPlannerDemo ../input/data.txt ../input/output.txt this will take data from data.txt it will parse the data for the program to read. In the input folder, two documents have been placed data.txt and test.txt these can be used to demonstrate how the program will except the input and output files. Inside the data.txt the contents looks like 
+Home,test1,0,0,0,0,0,0,0,0,0,0,,
+Home,test,0,0,0,0,0,0,0,0,0,0,,
+Home,test1,0,0,0,0,0,0,0,0,0,0,,
+Home,test,0,0,0,0,0,0,0,0,0,0,,
+Home,test1,0,0,0,0,0,0,0,0,0,0,,
+Home,test,0,0,0,0,0,0,0,0,0,0,,
+Home,test1,0,0,0,0,0,0,0,0,0,0,,
+Home,test,0,0,0,0,0,0,0,0,0,0,,
+Other,Other This test,0,0,0,0,0,0,0,0,0,0, ,Testtest
+
+We have type,description,year,month,day,hour,minute,year,month,day,hour,minute,comments,location
+
+
+
+
+You will be given a high-level menu option that looks like :
+1. Add Activity
+2. Search for an Activity
+Quit
+
+To access the first option you can type 1 or Add, both will be accepted, similarly you can type 2 or search, and for quit you can simply type q, or quit.
+
+After making the selection to add the activity you will be prompted to choose what type of activity you want add. You can either add a home activity, a school activity or an other activity. Home, School, and Other all require a couple of basic information such as : Title, Start Time, End Time, and an additional optional comment. If you are adding an Other Activity type you will also be required to add a location. Start Time and End Time both require you to enter Year, Month, Day, Hour, Minute. Your end time must occur after your start time.
+
+To search for an activity, you will be searching through all types of activities, can you either specify searching through based on description or time. If you search by description (Hashmap) you will be prompted to enter a string of information that will be searched for through the descriptions, if more than one keyword is to be searched for (using space as a delimiter) the results will be the intersection of all descriptions.
+If you search by time you can either specify start time or end time or both. If you don’t skip both start time and end time nothing will be returned.

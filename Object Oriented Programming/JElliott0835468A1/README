@@ -1,0 +1,19 @@
+Jacob Elliott 0835468
+
+To compile my code you must be in the folder before assignment, from there you can compile on the command line using javac assignment/DayPlannerDemo.java this will compile the code and then you can type java assignment/DayPlannerDemo this will run the code DayPlannerDemo.
+
+You will be given a high-level menu option that looks like :
+1. Add Activity
+2. Search for an Activity
+Quit
+
+To access the first option you can type 1 or Add, both will be accepted, similarly you can type 2 or search, and for quit you can simply type q, or quit.
+
+After making the selection to add the activity you will be prompted to choose what type of activity you want add. You can either add a home activity, a school activity or an other activity. Home, School, and Other all require a couple of basic information such as : Title, Start Time, End Time, and an additional optional comment. If you are adding an Other Activity type you will also be required to add a location. Start Time and End Time both require you to enter Year, Month, Day, Hour, Minute. Your end time must occur after your start time.
+
+You can only add ten types of each activities.
+
+To search for an activity, you must again choose if you want to search through the home, school, or other activities. After you select that everything from there is optional.
+It will ask you if you want to enter a start date and end date you can enter n or no if you want to skip start time, and finally it will ask you if you want to enter any additional search information. It will then print out all possible matches.
+
+To test my code I first started with adding activities, making sure I could add each type of activity. After that I tested the component that checked to make sure the end date came after the start date. After that I started testing the search algorithm. 

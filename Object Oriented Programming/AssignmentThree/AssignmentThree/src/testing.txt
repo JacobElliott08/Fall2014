@@ -1,0 +1,42 @@
+Some test cases :
+	
+Can I switch between the frames: Add, Home, and Search -> Yes
+
+Started with Add frame :
+
+Does my add button reject :
+an empty description : Yes
+an empty start time : Yes
+an empty end time : Yes
+an empty location (Other activity) : Yes
+
+Does my program highlight red when :
+an empty description : Yes
+an empty start time : Yes
+an empty end time : Yes
+an empty location (Other activity) : Yes
+
+Does the add button work : Yes
+Does the reset button work : Yes
+Searching Panel :
+
+Does my panel allow me to enter :
+nothing to search : yes
+Enter description only : only when a type of activity is selected.
+Enter Start Time only : only when a type of activity is selected.
+Enter End Time only : only when a type of activity is selected.
+
+Does the results fill up : Yes
+Does the reset button work : Yes
+Do the Time fields have the correct values : Yes
+Does the scroll bars appear : Yes
+Can you resize the screen : Yes
+
+Home Panel :
+Does a message pop up when :
+loading a file : yes
+saving a file : yes
+
+
+I started building incrementally, I started with the base class where three panels were loading on the screen and you could switch between each of them. From there I built up the add panel only, created it’s functionality and agreed on a set design for the GUI layout. I then created the searching frame, took the same steps to design the GUI layout and make sure things were resizable and nothing would go askew.
+Some bonus stuff was the highlighting of invalid fields, saving and loading files.

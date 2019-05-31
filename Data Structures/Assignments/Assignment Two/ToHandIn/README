@@ -1,0 +1,49 @@
+Jacob Elliott 0835468 Assignment Two
+
+Breif Description:
+To run my program, you must type make. To run my first question you must type ./questionone this porgram does not take in any command line arguments.
+It will display to the user a menu :
+Hello, please select a transaction code.
+1. Add a new car to rent.
+2. Return a car to rent.
+3. Return a car to repair list.
+4. Transfer a car from repair to rent.
+5. Rent the first car
+6. Display cars for rent, cars rented, and cars for repair.
+7. Quit
+
+Of these options you must use the number associated with the transcation, for example if you want to add a new car you enter 1 and not one or enter a new car.
+Upon pressing one you will be prompted to enter in additional details to enter in the new car. Further if you press 6 to display all the cars in the list. 
+The sample output might look like this :
+~~~~TO RENT~~~~
+1 : Plate Number : AEXY234 Mileage : 0 Return Date : 0
+2 : Plate Number : AZYL724 Mileage : 0 Return Date : 0
+3 : Plate Number : BZQZ546 Mileage : 0 Return Date : 0
+4 : Plate Number : CXWZ951 Mileage : 0 Return Date : 0
+5 : Plate Number : DVEX364 Mileage : 0 Return Date : 0
+6 : Plate Number : ECRY865 Mileage : 0 Return Date : 0
+7 : Plate Number : FWTV123 Mileage : 0 Return Date : 0
+8 : Plate Number : GEYB456 Mileage : 0 Return Date : 0
+9 : Plate Number : HRUN789 Mileage : 0 Return Date : 0
+10 : Plate Number : ITOG187 Mileage : 0 Return Date : 0
+11 : Plate Number : JYPH645 Mileage : 0 Return Date : 0
+12 : Plate Number : KUAD235 Mileage : 0 Return Date : 0
+13 : Plate Number : LISE231 Mileage : 0 Return Date : 0
+14 : Plate Number : MADT968 Mileage : 0 Return Date : 0
+15 : Plate Number : NDFY842 Mileage : 0 Return Date : 0
+16 : Plate Number : OFGA529 Mileage : 0 Return Date : 0
+17 : Plate Number : PGHG631 Mileage : 0 Return Date : 0
+18 : Plate Number : QHJY028 Mileage : 0 Return Date : 0
+19 : Plate Number : RJKE905 Mileage : 0 Return Date : 0
+20 : Plate Number : SWLZ467 Mileage : 0 Return Date : 0
+~~~~RENTED~~~~
+~~~~TO REPAIR~~~~
+These are all the cars currently contained in the hard disk file. Returning a car to either To Rent or To Repair, you will get a total for the car. When you exit the program the total for all the transactions today will be printed.
+
+To Run Question two you must type ./questiontwo and then a post fix expression
+such as./questiontwo 23+ the output will be 5.00
+Another function could be something like:
+./questiontwo 23+46*+  The final total is : 29.00
+./questiontwo 49*65+- The final total is : 25.00
+
+

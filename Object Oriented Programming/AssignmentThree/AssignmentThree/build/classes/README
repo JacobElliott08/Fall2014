@@ -1,0 +1,9 @@
+Jacob Elliott 0835468
+
+To compile my code you must be in the folder before assignment, from there you can compile on the command line using javac assignment/AssignmentThree.java this will compile the code.
+
+To run my code, you must be in the same folder you compiled in ’src’ and then you must type java assignment/AssignmentThree this will run the GUI, you can navigate the GUI how you wish, you can load or save files, add new activities and search from the pre-existing entries in the search frame.
+
+If you wish to use the in and out file please consider the following :
+
+You should add a blank activity and save it, from there you can view the output format and the input format, and create your own in file.

@@ -1,0 +1,24 @@
+Some test cases :
+	
+Can I switch between the frames: Add, Home, and Search -> Yes
+
+Started with Add frame :
+
+Does my add button reject :
+an empty description : Yes
+an empty start time : Yes
+an empty end time : Yes
+an empty location (Other activity) : Yes
+
+Does my program highlight red when :
+an empty description : Yes
+an empty start time : Yes
+an empty end time : Yes
+an empty location (Other activity) : Yes
+
+Searching Panel :
+
+Does my panel allow me to enter :
+nothing to search : yes
+Enter description only : only when a type of activity is selected.
+Enter Start

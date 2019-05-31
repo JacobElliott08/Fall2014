@@ -1,0 +1,58 @@
+Assignment four Question One Jacob Elliott 0835468
+
+The compile my program you must type Make in the root folder.
+To run my program you must compile first and then type ./avltree
+Upon running the program you will have a menu displayed to you :
+1. Initialization
+2. Find
+3. Insert
+4. Remove
+5. Check Height and Size
+6. Find All (above a given frequency)
+7. Exit
+avl/>
+
+If you enter 1 you will be prompted with ‘filename: ‘ you must enter a valid file name to parse into an AVL tree, some files might take a few seconds to parse depending on the number of entries in the input file. In the input file each key must be separated by a space or a new line.
+	For further examples we will use an input file with the entries :
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+	
+If you enter 2 you will be prompted with ‘find key: ‘ you can enter the key you wish to find in the AVL tree, if we wanted to find ‘a’ we would type ‘a’, and the output would be : ‘Key:a frequency:3’ 
+
+If you enter 3 you will be prompted with ‘Insert key: ‘ and if you wanted to find ‘a’ you simply type ‘a’ and the program will output ‘Key:a frequency:4’.
+
+If you enter 4 you will be prompted with ‘Delete key: ‘ if the key you wish to delete has a frequency above 1, the frequency will decrease by 1 and will be displayed ‘Key :a Frequency :1’, if you delete the key entirely nothing will be printed, if you try to delete a key that isn’t in the tree you will receive a no_such_key message.
+
+If you enter 5 the height and size of the binary tree will be displayed ‘Height : 4 Size : 25’
+
+If you enter 6 you will be prompted with ‘frequency : ‘, you will enter a number, every node with a frequency above that number will be displayed. 
+For example if I ask the program to print everything above a frequency of 2 I will be shown : 
+key: a, frequency: 3
+key: b, frequency: 3
+key: c, frequency: 3
+key: d, frequency: 3
+key: e, frequency: 3
+key: f, frequency: 3
+key: g, frequency: 3
+key: h, frequency: 3
+key: i, frequency: 3
+key: j, frequency: 3
+key: k, frequency: 3
+key: l, frequency: 3
+key: m, frequency: 3
+key: n, frequency: 3
+key: o, frequency: 3
+key: p, frequency: 3
+key: q, frequency: 3
+key: r, frequency: 3
+key: s, frequency: 3
+key: t, frequency: 3
+key: u, frequency: 3
+key: v, frequency: 3
+key: w, frequency: 3
+key: x, frequency: 3
+key: y, frequency: 3
+key: z, frequency: 3
+
+If you enter 7 exits the program.

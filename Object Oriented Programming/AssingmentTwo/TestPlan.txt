@@ -1,0 +1,123 @@
+Tested the command line input
+
+
+Testing hash-map creation
+Used Data.txt values
+
+Home,test1,0,April,0,0,0,0,April,0,0,0,,
+Home,test,0,April,0,0,0,0,April,0,0,0,,
+Home,test1,0,January,0,0,0,0,January,0,0,0,,
+Home,test,0,January,0,0,0,0,January,0,0,0,,
+Home,test1,0,January,0,0,0,0,January,0,0,0,,
+Home,test,0,January,0,0,0,0,January,0,0,0,,
+Home,test1,0,January,0,0,0,0,January,0,0,0,,
+Home,test,0,January,0,0,0,0,January,0,0,0,,
+
+
+OutPut expected : 
+test1 = [0,2,4,6]	
+test = [1,3,5,7]
+
+Output received :
+test = [1, 3, 5, 7]
+test1 = [0, 2, 4, 6]
+
+Test successful
+
+
+New Test :
+Tested the function of output file.
+Used Data.txt
+
+Home,test1,0,April,0,0,0,0,April,0,0,0, 
+Home,test,0,April,0,0,0,0,April,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Other,Other This test,0,January,0,0,0,0,January,0,0,0,  ,Testtest
+
+Output file
+
+Home,test1,0,April,0,0,0,0,April,0,0,0, 
+Home,test,0,April,0,0,0,0,April,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Home,test1,0,January,0,0,0,0,January,0,0,0, 
+Home,test,0,January,0,0,0,0,January,0,0,0, 
+Other,Other This test,0,January,0,0,0,0,January,0,0,0,  ,Testtest
+
+Test successful
+
+New Test :
+Testing File output from in-program input
+Inputed : 
+Please enter a short description : Test
+The next five prompts are for the start time.
+Please enter a Year (2014 - 2030) : 2014
+Please enter a Month : 3
+Please enter a Day : 4
+Please enter an hour: 5
+Please enter an minute : 2
+The next five prompts are for the end time.
+Please enter a Year (2014 - 2030) : 2014
+Please enter a Month : 4
+Please enter a Day : 3
+Please enter an hour: 2
+Please enter an minute : 1
+Please enter optional comments : Test
+
+Output file : 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Other,Other This test,0,0,0,0,0,0,0,0,0,0,  ,Testtest
+School,Test,2014,3,5,4,2,2014,4,2,3,1, Test
+
+Test successful.
+
+New Test:
+Tested Search functionality
+Input file :
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Home,test1,0,0,0,0,0,0,0,0,0,0, 
+Home,test,0,0,0,0,0,0,0,0,0,0, 
+Other,Other This test,0,0,0,0,0,0,0,0,0,0,  ,Testtest
+
+Search function :
+Results for ‘test’
+test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+Other This test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments :   Location : Testtest
+
+Results for ‘test1’
+test1 At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test1 At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test1 At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments : 
+test1 At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments :
+
+Results for ‘test test1’
+
+Results for ‘Other’
+Other This test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments :   Location : Testtest
+
+Results for ‘Other test’
+Other This test At 0/0/0 at 0:0 ending at 0/0/0 at 0:0 Comments :   Location : Testtest
+
+Test successful 
